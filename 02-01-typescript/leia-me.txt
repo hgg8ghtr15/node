@@ -1,0 +1,23 @@
+01- inicia
+  yarn init -y
+
+02- Instalação
+  yarn add express
+
+  yarn add @type/express
+
+  yarn add typescript -D 
+
+03- iniciação de arquivos
+  yarn tsc --init
+
+04- arquivos tsconfig.json
+  "outDir": "./dist",
+  "paths": {},  
+
+05- Compila o JS
+  yarn tsc
+
+06- executa
+  yarn node .\dist\server.js
+  
