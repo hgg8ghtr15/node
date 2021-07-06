@@ -1,0 +1,7 @@
+git clone https://github.com/hgg8ghtr15/node.git
+
+git branch -M master
+
+git commit -m "Preparando Projeto"
+
+git push origin master
