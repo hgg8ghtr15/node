@@ -4,7 +4,7 @@
 02- Instalação
   yarn add express
 
-  yarn add @type/express
+  yarn add @types/express
 
   yarn add typescript -D 
 
