@@ -20,4 +20,7 @@
 
 06- executa
   yarn node .\dist\server.js
+
+07- uuid
+  yarn add @types/uuid
   
