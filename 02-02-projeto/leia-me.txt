@@ -1,0 +1,18 @@
+yarn init -y
+
+yarn add express
+
+yarn add @types/express
+
+yarn add typescript
+
+yarn tsc --init
+
+yarn add ts-node-dev -D
+
+Debug
+  "type": "node",
+  "request": "attach",
+  remover  "program": "${workspaceFolder}\\02-02-projeto\\src\\server.ts",
+
+  inserir em script dev --inspect
