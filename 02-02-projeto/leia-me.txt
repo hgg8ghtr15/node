@@ -6,6 +6,10 @@ yarn add @types/express
 
 yarn add typescript
 
+yarn add uuid
+
+yarn add @types/uuid
+
 yarn tsc --init
 
 yarn add ts-node-dev -D

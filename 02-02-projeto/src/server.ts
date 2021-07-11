@@ -1,7 +1,10 @@
 import express from "express"
+import {categoriaRouter} from "./routes/categoria.router"
 
 const app = express()
 app.use(express.json())
+
+app.use("/categoria",categoriaRouter)
 
 app.get("/", (request, response) => {
   return response.send("Teste")
