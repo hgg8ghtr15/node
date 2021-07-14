@@ -1,7 +1,7 @@
 import {v4 as uuidV4} from "uuid"
 
 class Patrimonio{
-  id:string;
+  id?:string;
   nome: string;
   numero: string;
   valor:number;
@@ -9,7 +9,7 @@ class Patrimonio{
   creat_at: Date;
 
   constructor() {
-    if(!this.id) {
+    if (!this.id) {
       this.id = uuidV4()
     }
     this.numero = "00"
